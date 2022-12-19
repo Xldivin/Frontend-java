@@ -46,7 +46,10 @@
     border-color: #0BDA51 #0BDA51 #0BDA51 #0BDA51;
     margin-left: -5rem;
 }
-
+.buttonslog{
+    display: flex;
+    justify-content: space-between;
+}
 .link {
     text-align: center;
 }
