@@ -19,21 +19,21 @@ function Login() {
             .then((response) => {
                 console.log(response.data.role)
                 check = response.data.success
-                if (response.data.role == "admin") {
+                if (response.data.role.logged == "admin") {
                     alert("Logged in")
-                    window.localStorage.setItem("role", response.data.role);
+                    window.localStorage.setItem("role", response.data.role.logged);
                     navigate("/table1");
-                } else if(response.data.role == "pharmacist") {
+                } else if(response.data.role.logged == "pharmacist") {
                     alert("Logged in")
-                    window.localStorage.setItem("role", response.data.role);
+                    window.localStorage.setItem("role", response.data.role.logged);
                     navigate("/table3");
-                } else if(response.data.role == "patient") {
+                } else if(response.data.role.logged == "patient") {
                     alert("Logged in")
-                    window.localStorage.setItem("role", response.data.role);
+                    window.localStorage.setItem("role", response.data.role.logged);
                     navigate("/table4");
-                } else if(response.data.role == "physician") {
+                } else if(response.data.role.logged == "physician") {
                     alert("Logged in")
-                    window.localStorage.setItem("role", response.data.role);
+                    window.localStorage.setItem("role", response.data.role.logged);
                     navigate("/table2");
                 } else {
                     navigate("/");
