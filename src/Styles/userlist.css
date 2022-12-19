@@ -26,8 +26,12 @@ body {
     }
  .role{
     margin-top: 25px;
+    width: 5rem;
  }
  .list-users{
     text-align: center;
     color: #C0C0C0;
+ }
+ .name{
+  width: 5rem;
  }

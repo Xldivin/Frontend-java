@@ -24,3 +24,9 @@ tr:nth-child(even) {
     margin-top: 5rem;
     text-decoration: underline;
 }
+.logout{
+    background-color: #3C3535;
+    width: 10rem;
+    height: 2rem;
+    color:#fff
+}

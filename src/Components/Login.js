@@ -44,17 +44,20 @@ function Login() {
 
     return (
         <div className='container'>
-            <div className='box'>
+            <div className='box1'>
                 <form className='form' onSubmit={handleSubmit} >
                     <h3 className='headerlog'>Welcome to Medical Records</h3>
-                    <input placeholder='email' name='email' className='input1' />
-                    <input placeholder='password' name='password' type="password" className='input2' />
                     <p to="" className='link'>
+                    Don't have an account?
                         <Link to="/">
-                        Don't have an account yet
+                            Sign up
                         </Link>
                     </p>
-                    <button type='submit' className='button'>Login</button>
+                    <div className='inputseclog'>
+                    <input placeholder='email' name='email' className='input1log' />
+                    <input placeholder='password' name='password' type="password" className='input2log' />
+                    </div>
+                    <button type='submit' className='button1'>Login</button>
                 </form>
             </div>
         </div>

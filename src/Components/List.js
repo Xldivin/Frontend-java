@@ -5,7 +5,7 @@ function List({user}) {
     <ul class="list">
     <li class="list-item">
       <div class="list-item-content">
-        <h4>{user.first_name}</h4>
+        <h4 className='name'>{user.firstname}</h4>
       </div>
       <div>
         <p className='role'>{user.role}</p>

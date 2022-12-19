@@ -4,9 +4,9 @@
     align-items: center;
     margin-top: 260px;
 }
-.box {
+.box1 {
     background-color: #fff;
-    width: 12rem;
+    width: 22rem;
     height: 25rem;
 }
 
@@ -14,26 +14,37 @@
     display: flex;
     flex-direction: row;
 }
+.inputseclog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-.input1 {
-    width: 18rem;
+.input1log {
     height: 1.5rem;
     margin: auto;
     margin-top: 2rem;
+    width: 30.5rem;
+    margin-left: -5rem;
 }
 
-.input2 {
-    width: 18rem;
+.input2log {
     height: 1.5rem;
     margin: auto;
     margin-top: 1rem;
+    width: 30.5rem;
+    margin-left: -5rem;
 }
 
-.button {
-    width: 18rem;
-    height: 1.5rem;
+.button1 {
+    height: 2.2rem;
     margin: auto;
-    border-radius: 10px;
+    background-color: #0BDA51;
+    color: #fff;
+    width: 31rem;
+    margin-top: 2rem;
+    border-color: #0BDA51 #0BDA51 #0BDA51 #0BDA51;
+    margin-left: -5rem;
 }
 
 .link {
@@ -42,6 +53,47 @@
 .headerlog {
     text-align: center;
 }
-@media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 768px) {
+    .input1log {
+        margin-left: -5rem;
+    }
+    .input2log {
+        margin-left: -5rem;
+    }
+    .button1 {
+        margin-left: -5rem;
+    }
+    .link {
+        text-align: center;
+        margin-left: -2rem;
+    }
+    .headerlog {
+        text-align: center;
+        margin-left: -2rem;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .container{
+        overflow-x: hidden; 
+    }
+    .input1log {
+        margin-left: 1rem;
+        width: 18.5rem;
+    }
+    .input2log {
+        margin-left: 1rem;
+        width: 18.5rem;
+    }
+    .button1 {
+        margin-left: 1rem;
+        width: 18.9rem;
+    }
+    .link {
+        text-align: center;
+        margin-left: -2rem;
+    }
+    .headerlog {
+        text-align: center;
+        margin-left: -2rem;
+    }
 }

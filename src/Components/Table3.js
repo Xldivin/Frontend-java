@@ -1,9 +1,16 @@
 import React from 'react'
 import "../Styles/table.css"
+import { useNavigate } from 'react-router-dom';
 
 function Table3() {
+    const navigate = useNavigate();
+    function logout (){
+        localStorage.clear();
+        navigate("/login");
+    }
     return (
         <div>
+            <button className='logout' onClick={logout}>Logout</button>
             <h3 className='header'>Most Bought Drugs 2000-2002</h3>
             <table>
                 <tr>
