@@ -2,10 +2,8 @@ import React from 'react'
 import '../Styles/signup.css'
 import { Link } from "react-router-dom"
 import axios from "axios"
-import { useNavigate } from 'react-router-dom';
 
 function Signup() {
-    const navigate = useNavigate();
 
     function handleSubmit(event) {
         let check = false;
@@ -29,7 +27,6 @@ function Signup() {
                 } else {
                     alert(response.data.message.result)
                 }
-                navigate("/login");
         });
     }
     return (
