@@ -28,7 +28,7 @@ function Table1() {
             filename={"Patient Data"}
             target="_blank"
             >
-            Download
+            Download Csv
             </CSVLink>
             </div>
             <h3 className='header'>Patient illnesses 2000-2002</h3>

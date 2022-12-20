@@ -24,7 +24,7 @@ function Table3() {
             filename={"Most Bought Drugs"}
             target="_blank"
             >
-            Download
+            Download Csv
             </CSVLink>
             </div>
             <h3 className='header'>Most Bought Drugs 2000-2002</h3>

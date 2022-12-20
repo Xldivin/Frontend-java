@@ -24,7 +24,7 @@ function Table2() {
             filename={"Physicians mission"}
             target="_blank"
             >
-            Download
+            Download Csv
             </CSVLink>
             </div>
             <h3 className='header'>Physicians missions 2000-2002</h3>
